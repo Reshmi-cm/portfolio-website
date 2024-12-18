@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
 </head>
 <body>
     <!-- Header Section -->
@@ -22,15 +25,15 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I am a Software Developer | Cybersecurity Analyst | RPA Specialist.</p>
-        <a href="#projects" class="btn">View My Work</a>
+         <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Welcome to My Portfolio</h1>
+    <p class="animate__animated animate__fadeInUp animate__delay-2s">I am a Software Developer | Cybersecurity Analyst | RPA Specialist.</p>
+    <a href="#projects" class="btn animate__animated animate__bounceIn">View My Work</a>
     </section>
 
     <!--About Me-->
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <div class="about-content">
+        <h2 class="animate__animated animate__slideInLeft">About Me</h2>
+    <div class="about-content animate__animated animate__slideInRight">
             <p>
                 Hello! I'm <strong>Reshmi Krishnakumar</strong>, A highly motivated and dedicated Cybersecurity and Software Development
                 professional with a Master’s degree in Information Assurance and Cybersecurity.
@@ -52,11 +55,11 @@
 
     <!-- Projects Section -->
 <section id="projects" class="projects">
-    <h2>My Projects</h2>
+    <h2 class="animate__animated animate__fadeIn">My Projects</h2>
     <div class="project-container">
-        <!-- Project 1 -->
-        <div class="project-card">
-            <img src="images/project1.jpg" alt="Project 1">
+    <div class="project-card animate__animated animate__zoomIn">
+        <img src="images/project1.jpg" alt="Project 1">
+            
             <h3>SIEM System Implementation</h3>
             <p>Supported the setup of a Splunk-based SIEM system, assisting in log
                 monitoring and real-time alert configuration to enhance threat detection
@@ -65,7 +68,7 @@
         </div>
         
         <!-- Project 2 -->
-        <div class="project-card">
+        <div class="project-card animate__animated animate__zoomIn">
             <img src="images/project2.jpg" alt="Project 2">
             <h3>End-to-End Encryption Implementation</h3>
             <p>Contributed to the development of data encryption protocols and compliance
@@ -74,8 +77,8 @@
         </div>
 
         <!-- Project 3 -->
-        <div class="project-card">
-            <img src="images/project2.jpg" alt="Project 2">
+        <div class="project-card animate_animated animate__zoomIn">
+            <img src="images/project3.jpg" alt="Project 3">
             <h3>Dynamic Password Vault</h3>
             <p>Designed a secure password vault with two-factor authentication and session
                 timeout features.</p>
@@ -83,8 +86,8 @@
         </div>
 
         <!-- Project 4 -->
-        <div class="project-card">
-            <img src="images/project2.jpg" alt="Project 2">
+        <div class="project-card animate__animated animate__zoomIn">
+            <img src="images/project4.jpg" alt="Project 4">
             <h3>Face Mask Detection Using YoloV5</h3>
             <p>Developed a machine learning model for real-time mask detection, aiding
                 public health initiatives during the pandemic.</p>
@@ -92,8 +95,8 @@
         </div>
 
         <!-- Project 5 -->
-        <div class="project-card">
-            <img src="images/project2.jpg" alt="Project 2">
+        <div class="project-card animate__animated animate__zoomIn">
+            <img src="images/project5.jpg" alt="Project 5">
             <h3>Rescue Robot with Zigbee Technology</h3>
             <p>Built an autonomous robot for live video transmission and real-time navigation
 control.</p>
