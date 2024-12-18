@@ -1,15 +1,21 @@
-# Ignore system files
+# System files
 .DS_Store
 Thumbs.db
 AppData/
 NTUSER.DAT*
 ntuser.ini
 
-# Ignore IDE and editor files
+# IDE/editor files
 .vscode/
 .idea/
 *.log
 
-# Ignore sensitive files
+# Backup or sensitive files
 *.key
 *.pem
+*.bak
+
+# Other unnecessary files
+node_modules/
+.VirtualBox/
+.android/
