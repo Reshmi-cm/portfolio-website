@@ -15,3 +15,15 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
         alert('Please fill in all fields.');
     }
 });
+document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+
+    if (name === '' || email === '') {
+        alert('Please fill in all required fields.');
+    } else {
+        alert('Thank you! Your message has been sent.');
+        this.reset();
+    }
+});
