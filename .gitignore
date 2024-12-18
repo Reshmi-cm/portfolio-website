@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+AppData/
+NTUSER.DAT*
+ntuser.ini
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.log
+
+# Ignore sensitive files
+*.key
+*.pem
